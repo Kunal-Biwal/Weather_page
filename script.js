@@ -24,7 +24,7 @@ async function checkWeather(city){  //async is a KeyWord use to show the functio
        location_not_found.style.display = "flex";
        weather_body.style.display = "none";
         console.log("Error");
-        return;
+        return; //hello
     }
 
 
